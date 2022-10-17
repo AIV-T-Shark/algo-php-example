@@ -11,7 +11,7 @@ class QuestionList extends ArrayCollection
      * @param string $path
      * @return QuestionList
      */
-    public static function fromMdFile(string $path) {
+    public static function fromMdFile(string $path): QuestionList {
         //..
     }
 }
